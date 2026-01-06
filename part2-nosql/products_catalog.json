@@ -1,0 +1,172 @@
+[
+  {
+    "product_id": "ELEC001",
+    "name": "Samsung Galaxy S21",
+    "category": "Electronics",
+    "price": 799.99,
+    "stock": 150,
+    "specs": {
+      "ram": "8GB",
+      "storage": "128GB",
+      "screen_size": "6.2 inches",
+      "battery": "4000mAh"
+    },
+    "reviews": [
+      {"user": "U001", "rating": 5, "comment": "Great phone!", "date": "2024-01-15"},
+      {"user": "U002", "rating": 4, "comment": "Good value for money", "date": "2024-01-20"}
+    ]
+  },
+  {
+    "product_id": "ELEC002",
+    "name": "MacBook Pro 14",
+    "category": "Electronics",
+    "price": 1999.99,
+    "stock": 45,
+    "specs": {
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "processor": "Apple M2",
+      "screen_size": "14.2 inches"
+    },
+    "reviews": [
+      {"user": "U003", "rating": 5, "comment": "Excellent performance", "date": "2024-02-01"},
+      {"user": "U004", "rating": 5, "comment": "Best laptop I've owned", "date": "2024-02-10"}
+    ]
+  },
+  {
+    "product_id": "ELEC003",
+    "name": "Sony WH-1000XM4 Headphones",
+    "category": "Electronics",
+    "price": 349.99,
+    "stock": 200,
+    "specs": {
+      "type": "Over-ear",
+      "noise_cancellation": true,
+      "battery_life": "30 hours",
+      "wireless": true
+    },
+    "reviews": [
+      {"user": "U005", "rating": 5, "comment": "Amazing sound quality", "date": "2024-01-25"},
+      {"user": "U006", "rating": 4, "comment": "Great noise cancellation", "date": "2024-02-05"}
+    ]
+  },
+  {
+    "product_id": "ELEC004",
+    "name": "iPad Air",
+    "category": "Electronics",
+    "price": 599.99,
+    "stock": 120,
+    "specs": {
+      "ram": "8GB",
+      "storage": "256GB",
+      "screen_size": "10.9 inches",
+      "processor": "Apple M1"
+    },
+    "reviews": [
+      {"user": "U007", "rating": 5, "comment": "Perfect for work and entertainment", "date": "2024-01-30"}
+    ]
+  },
+  {
+    "product_id": "ELEC005",
+    "name": "Canon EOS R5 Camera",
+    "category": "Electronics",
+    "price": 3899.99,
+    "stock": 25,
+    "specs": {
+      "resolution": "45MP",
+      "video": "8K",
+      "iso_range": "100-51200",
+      "lens_mount": "RF"
+    },
+    "reviews": [
+      {"user": "U008", "rating": 5, "comment": "Professional quality", "date": "2024-02-15"},
+      {"user": "U009", "rating": 4, "comment": "Expensive but worth it", "date": "2024-02-20"}
+    ]
+  },
+  {
+    "product_id": "SHOE001",
+    "name": "Nike Air Max 270",
+    "category": "Footwear",
+    "price": 150.00,
+    "stock": 300,
+    "specs": {
+      "size": "10",
+      "color": "Black/White",
+      "material": "Mesh and Synthetic",
+      "gender": "Unisex"
+    },
+    "reviews": [
+      {"user": "U010", "rating": 4, "comment": "Comfortable for daily wear", "date": "2024-01-18"},
+      {"user": "U011", "rating": 5, "comment": "Great running shoes", "date": "2024-02-08"}
+    ]
+  },
+  {
+    "product_id": "SHOE002",
+    "name": "Adidas Ultraboost 22",
+    "category": "Footwear",
+    "price": 180.00,
+    "stock": 250,
+    "specs": {
+      "size": "9",
+      "color": "White",
+      "material": "Primeknit",
+      "gender": "Men"
+    },
+    "reviews": [
+      {"user": "U012", "rating": 5, "comment": "Best running shoes ever", "date": "2024-01-22"},
+      {"user": "U013", "rating": 4, "comment": "Good cushioning", "date": "2024-02-12"}
+    ]
+  },
+  {
+    "product_id": "SHOE003",
+    "name": "Converse Chuck Taylor All Star",
+    "category": "Footwear",
+    "price": 65.00,
+    "stock": 500,
+    "specs": {
+      "size": "8",
+      "color": "Red",
+      "material": "Canvas",
+      "gender": "Unisex"
+    },
+    "reviews": [
+      {"user": "U014", "rating": 4, "comment": "Classic style", "date": "2024-01-28"},
+      {"user": "U015", "rating": 3, "comment": "Comfortable but basic", "date": "2024-02-18"}
+    ]
+  },
+  {
+    "product_id": "SHOE004",
+    "name": "Vans Old Skool",
+    "category": "Footwear",
+    "price": 75.00,
+    "stock": 400,
+    "specs": {
+      "size": "7",
+      "color": "Black/White",
+      "material": "Canvas and Suede",
+      "gender": "Unisex"
+    },
+    "reviews": [
+      {"user": "U016", "rating": 5, "comment": "Perfect skate shoes", "date": "2024-02-02"},
+      {"user": "U017", "rating": 4, "comment": "Durable and stylish", "date": "2024-02-22"}
+    ]
+  },
+  {
+    "product_id": "SHOE005",
+    "name": "New Balance 990v5",
+    "category": "Footwear",
+    "price": 185.00,
+    "stock": 180,
+    "specs": {
+      "size": "11",
+      "color": "Grey",
+      "material": "Mesh and Suede",
+      "gender": "Men"
+    },
+    "reviews": [
+      {"user": "U018", "rating": 5, "comment": "Excellent support", "date": "2024-02-14"},
+      {"user": "U019", "rating": 4, "comment": "Great for long walks", "date": "2024-02-25"}
+    ]
+  }
+]
+

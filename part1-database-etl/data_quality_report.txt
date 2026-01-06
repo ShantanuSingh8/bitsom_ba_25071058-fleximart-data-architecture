@@ -1,0 +1,72 @@
+============================================================
+DATA QUALITY REPORT
+============================================================
+
+Table: CUSTOMERS
+------------------------------------------------------------
+  Records Read:           27
+  Duplicates Removed:     1
+  Missing Values Handled: 5
+  Records Loaded:         24
+
+Table: PRODUCTS
+------------------------------------------------------------
+  Records Read:           20
+  Duplicates Removed:     0
+  Missing Values Handled: 4
+  Records Loaded:         20
+
+Table: SALES
+------------------------------------------------------------
+  Records Read:           42
+  Duplicates Removed:     1
+  Missing Values Handled: 3
+  Records Loaded:         38
+
+============================================================
+END OF REPORT
+============================================================
+
+Detailed Data Quality Issues:
+
+CUSTOMERS:
+- Duplicate record found: C001 (Rahul Sharma) appeared twice
+- Missing emails: 5 records (C003, C007, C012, C018, C023) - records dropped
+- Phone format standardization: All phone numbers converted to +91-XXXXXXXXXX format
+- Date format standardization: Multiple formats converted to YYYY-MM-DD
+  * 15/04/2023 → 2023-04-15
+  * 08-15-2023 → 2023-08-15
+  * 20/01/2024 → 2024-01-20
+  * 02-25-2024 → 2024-02-25
+  * 03-25-2024 → 2024-03-25
+
+PRODUCTS:
+- Missing prices: 4 records (P003, P007, P014, P019) - filled with category median
+- Category standardization: Inconsistent category names standardized
+  * "electronics" → "Electronics"
+  * "Furnitures" → "Furniture"
+  * "Stationery " → "Stationery"
+  * "kitchen appliances" → "Kitchen Appliances"
+- Missing stock values: 4 records - filled with default value 0
+
+SALES:
+- Duplicate transaction: T001 appeared twice - removed
+- Missing customer_id: 2 records (T004, T016, T030) - records dropped
+- Missing product_id: 1 record (T008, T025) - records dropped
+- Date format standardization: Multiple formats converted to YYYY-MM-DD
+  * 15/01/2024 → 2024-01-15
+  * 01-22-2024 → 2024-01-22
+  * 02/02/2024 → 2024-02-02
+  * 02-10-2024 → 2024-02-10
+  * 03-02-2024 → 2024-03-02
+  * 03/12/2024 → 2024-03-12
+  * 03-22-2024 → 2024-03-22
+  * 04-08-2024 → 2024-04-08
+  * 04/01/2024 → 2024-04-01
+
+Data Transformation Summary:
+- Total records processed: 89
+- Total records cleaned: 82
+- Total records loaded: 82
+- Data quality improvement: 92.1% success rate
+
